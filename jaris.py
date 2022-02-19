@@ -151,16 +151,16 @@ if __name__ == '__main__':
             codePath = "E:\PyCharm Community Edition 2020.2\bin\pycharm64.exe"
             # Provide full path to pycharm
             os.startfile(codePath)
-        elif 'email to my friend':
-             try:
-                 speak("What should i say ?")
-                 content = takeCommand()
-                 to = "myfriend@gmail.com" # or "myfriend@icloud.com"
-                 sendEmail(to, content)
-                 speak("I have sent the email")
-             except Exception as e:
-                 print(e)
-            musiconloop("physical.mp3", "stop")
+        # elif 'email to my friend':
+        #      try:
+        #          speak("What should i say ?")
+        #          content = takeCommand()
+        #          to = "myfriend@gmail.com" # or "myfriend@icloud.com"
+        #          sendEmail(to, content)
+        #          speak("I have sent the email")
+        #      except Exception as e:
+        #          print(e)
+        #     musiconloop("physical.mp3", "stop")
         elif 'activate' in query:
             init_water = time()
             init_eyes = time()
